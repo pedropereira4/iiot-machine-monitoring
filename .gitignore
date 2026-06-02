@@ -1,6 +1,9 @@
 # Environment variables — never commit this!
 .env
 
+# Claude internal files
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]

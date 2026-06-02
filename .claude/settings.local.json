@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\pp683\\\\OneDrive\\\\Ambiente de Trabalho\\\\Meta2SRSA\" -Recurse -Force | Select-Object -Property FullName, @{Name=\"Type\"; Expression={if\\($_.PSIsContainer\\){\"DIR\"}else{\"FILE\"}}} | Sort-Object FullName)"
-    ]
-  }
-}
